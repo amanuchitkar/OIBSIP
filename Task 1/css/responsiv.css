@@ -1,0 +1,117 @@
+@media only screen and (max-width:1000px){
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+    nav{
+        width: 100vw;
+    }
+    .line{
+        background-color: #ffffff;
+        height: 4px;
+        width: 34px;
+        margin: 4px 3px;
+        border-radius: 4px;
+    }
+    .logo img {
+        width: 60px;
+        margin: 15px;
+    }
+    .navbar{
+        background: rgb(0 0 0 / 0.8) url("/bg.jpg");
+        background-size: cover;
+        background-blend-mode: darken;
+        flex-direction: column;
+        height: 30rem;
+        transition: all 0.7s ease-out;
+    }
+    
+    .nav-list{
+        transition: all 0.8s ease-out;
+        padding: 5px;
+        flex-direction: column;
+        width: auto;
+    }
+    .nav-list li a{
+
+        font-size: 25px;
+    }
+    .nav-list li {
+        padding: 5px;
+        margin: 15px;
+    }
+    .rightnav input{
+        margin-block: 5px;
+        border-radius: 6px;
+        font-size: 1.2rem;
+    }
+    .rightnav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .rightnav button{
+        border-radius: 6px;
+        margin: 4px;
+        border: 1px solid white;
+        width: fit-content;
+    }
+    .h-nav-resp{
+        height: 55px;
+        background-color: #404145;
+    }
+    .v-class-resp{
+        
+        display: none;
+    }
+    .main-box{
+        flex-direction: column-reverse;
+        max-width: 100vh
+    }
+    .firstsection{
+        height: 100vh;
+        max-width: 100%;
+    } .firsthalf{
+
+        text-align: center;
+    }
+    .secondsec-leftimg{
+        flex-direction: column-reverse;
+        padding-block: 10px;
+        max-width: 100vw;
+        
+    }
+    .secondsec{
+       max-width: 100vw;
+        
+        padding-block: 10px;
+        flex-direction: column-reverse;
+    }
+    .thumbnel img {
+        margin-block: 2rem;
+    }
+    
+    .sectiontag{
+        text-align: center;
+        margin-inline-end:0;
+        font-size: 1.7rem;
+    }
+    .margin-inline-end{
+        margin: 0;
+        text-align: center;
+    }
+    .contact{
+        height: fit-content;
+    }
+    .form{
+        padding-block: 25px;
+    }
+    .secright{
+        width: 90%;
+    }
+    footer{
+        font-size:10px ;
+        height: 72px;
+    }
+}
