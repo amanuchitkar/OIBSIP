@@ -7,7 +7,7 @@ const resultSelect = document.querySelector('#result-dropdown')
 
 inputSelect.addEventListener('change', resultChange)
 resultSelect.addEventListener('change', insertChange)
-
+console.log("hello world")
 // To auto change the result dropdown value
 function resultChange() {
   if (
